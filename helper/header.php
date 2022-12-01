@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/gridLayout.css">
   <link rel="stylesheet" href="style/baseStyle.css">
+  <link rel="stylesheet" href="style/AnimalStyle.css">
   <title>fms-app</title>
 </head>
 <body>
@@ -24,10 +25,10 @@
 <main class="mainContentContainer">
   <nav id="navContainer">
     <ul class="navULContainer">
-      <li class="navButton"><a href="index.php">Index</a></li>
-      <li class="navButton"><a href="../herd/addAnimal">Add Cow or Bull</a></li>
+      <li class="navButton"><a href="./index.php">Index</a></li>
+      <li class="navButton"><a href="./animal.php">Add Cow or Bull</a></li>
       <li class="navButton"><a href="../herd/calfInfo">Add Calf</a></li>
-      <li class="navButton"><a href="../herd/list">List</a></li>
+      <li class="navButton"><a href="./list.php">List</a></li>
       <li class="navButton account"><a href="../login/login">Login</a></li>
       <li class="navButton account"><a href="../login/logout">Logout</a></li>
     </ul>
