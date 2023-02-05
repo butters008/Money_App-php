@@ -1,6 +1,3 @@
-</main>
-<footer class="footerContent">
-  Footer
-</footer>
-</body>
-</html>
+<footer>
+  <p>This is a test</p>
+</footer></html>

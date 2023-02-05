@@ -1,16 +1,8 @@
-<?php 
-  include "helper/header.php";
-?>
+<?php include_once "helper/header.php"; ?>
 
-<section id="mainContent">
-
-</section>
-<div id="sideContent">
-
-</div>
+<body>
+  <p>this is a test</p>
+</body>
 
 
-
-<?php 
-  include "helper/footer.php";
-?>
+<?php include_once "helper/footer.php"; ?>
