@@ -1,12 +1,13 @@
 <?php
 
 //This is for local connection
-$dbname = "localhost";
+$dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
+$dbname = "money_app_db";
 
 //connection
-$conn = mysqli_connect($dbname, $dbuser, $dbpass);
+$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
 //testing connection
 if (!$conn) {
