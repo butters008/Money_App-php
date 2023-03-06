@@ -6,6 +6,9 @@ header{
   grid-template-areas: 
   "title title"
   "myInfo account";
+  /* flex:1; */
+  grid-area: header;
+
 }
 
 .headerTitle{

@@ -2,3 +2,43 @@
   font-family: Roboto;
   background-color: aqua;
 }
+
+.baseLayout{
+  display: grid;
+  grid-template-rows: 
+  2fr 
+  3fr 
+  1fr;
+  grid-template-areas: 
+  "header"
+  "body"
+  "footer";
+}
+
+.mainContainer{
+  grid-area: body;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: auto; */
+  grid-template-areas: "calendar money";
+}
+
+.calendar{
+  grid-area: calendar;
+  display: flex;
+  background-color: chartreuse;
+  /* flex-direction: column; */
+  flex: 1;
+}
+
+.moneyContainer{
+  grid-area: money;
+  background-color: brown;
+  display: flex;
+  /* flex-direction: column; */
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-content: space-between; */
+}

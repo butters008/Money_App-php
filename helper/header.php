@@ -13,4 +13,6 @@
   <!-- CSS Links -->
   <link rel="stylesheet" href="style/headerContainer.css">
   <link rel="stylesheet" href="style/baseStyle.css"> 
+  <link rel="stylesheet" href="style/footerStyle.css"> 
+  <link rel="stylesheet" href="style/moneyStyle.css"> 
 </head>
